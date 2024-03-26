@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+#### Hello everyone. This is a project from a cybersecurity student. It contains some notes related to netword security, as well as some interesting codes written by individuals. 
+
+#### 大家好。这是一个网安学生的简单项目。包括一些学习笔记，和一些有意思的代码。
 <!--
 **N1etZsch3/N1etZsch3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
