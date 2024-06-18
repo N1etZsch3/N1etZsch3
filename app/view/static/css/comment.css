@@ -1,0 +1,55 @@
+/* 评论列表的基本样式 */
+.comments-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 单个评论的样式 */
+.comment {
+    background-color: #f9f9f9; /* 浅灰色背景 */
+    border: 1px solid #ddd; /* 边框 */
+    padding: 15px;
+    margin-bottom: 10px; /* 评论间隔 */
+    border-radius: 5px; /* 圆角边框 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 轻微阴影 */
+}
+
+/* 评论元信息的样式 */
+.comment-meta {
+    font-size: 0.9em;
+    color: #666; /* 灰色文字 */
+    margin-bottom: 10px; /* 与评论内容的间隔 */
+}
+
+.comment-meta .commenter {
+    font-weight: bold;
+    color: #333; /* 深灰色 */
+}
+
+.comment-meta .comment-time {
+    margin-left: 10px;
+    color: #999; /* 更浅的灰色 */
+}
+
+/* 评论内容的样式 */
+.comment-content {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #333; /* 深灰色文字 */
+}
+
+/* 删除评论链接的样式 */
+.comment-delete {
+    text-align: right; /* 右对齐 */
+}
+
+.comment-delete a {
+    font-size: 0.8em;
+    color: #333; /* 深灰色链接 */
+    text-decoration: none; /* 无下划线 */
+}
+
+.comment-delete a:hover {
+    text-decoration: underline; /* 悬停时下划线 */
+}

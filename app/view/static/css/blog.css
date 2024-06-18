@@ -1,0 +1,72 @@
+/* 仅针对main部分的CSS，确保不与其他元素发生冲突 */
+main {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.post-title {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.post-meta .author,
+.post-meta .publish-date {
+    font-style: italic;
+}
+
+.post-content {
+    color: #333333;
+    line-height: 1.6;
+}
+
+.comments-section {
+    margin-top: 40px;
+}
+
+.comments-section h3 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.comments-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    resize: vertical;
+}
+
+.comment-form button {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #555555;
+}
